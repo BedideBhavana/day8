@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding: 10px;
+            background-color: black;
+            color: white;
+            display: grid;
+            grid-template-columns: auto auto auto;
+           gap: 10px;
+           grid-template-areas: 
+           "header header header"
+            "sidebar content1 content1"
+            "sidebar content2 content2"
+            "content3 content3 content3"
+            "footer footer footer";
+            
+        }
+        .container div{
+            padding:10px ;
+            background-color: red;
+
+        }
+        .c1{
+             grid-area:header ;
+        }
+        .c2{
+            grid-area:sidebar;
+        }
+        .c3{
+            grid-area: content1;
+        }
+        .c4{
+            grid-area:content2 ;
+
+        }
+        .c5{
+            grid-area: content3;
+        }
+        .c6{
+            grid-area: footer;
+        }
+       
+
+       
+        @media only screen and (width>800px){
+            body{
+                background-color: purple;
+            }
+        }
+            
+        
+        
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="c1">header</div>
+        <div class="c2">sidebar</div>
+        <div class="c3">content1</div>
+        <div class="c4">content2</div>
+        <div class="c5">content3</div>
+        <div class="c6">footer</div>
+    </div>
+</body>
+</html>

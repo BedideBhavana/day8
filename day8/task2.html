@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .card{
+    display: flex;
+    gap: 30px;
+  
+ }
+ .card2{
+  display: flex;
+  gap: 30px;
+  
+ }
+ .card3{
+  margin-left: 150px;
+  text-align: center;
+  
+ }
+ body{
+ margin: 20px;
+ 
+ }
+ .card6{
+           grid-template-areas: 
+           "c1 c2 c3"
+           "c4 c5 c6"
+           "c7 c8 c9";
+            
+        }
+        .card6{
+            background-color:black;
+            color: white;
+            grid-template-areas: auto auto;
+
+        }
+        .c1{
+             grid-area:Travel ;
+        }
+        .c2{
+            grid-area:New York;
+        }
+        .c3{
+            grid-area: Dinner;
+        }
+        .c4{
+            grid-area:Salmon ;
+
+        }
+        .c5{
+            grid-area: France;
+        }
+        .c6{
+            grid-area: Drinks;
+        }
+        .c7{
+            grid-area: ideas;
+        }
+        .c8{
+            grid-area: flavors;
+        }
+        .c9{
+            grid-area: fried;
+        }
+       .content{
+         display: flex;
+         gap: 350px;
+         margin-left: 30px;
+        }
+       
+@media  only screen and (width<600px){
+    .card{
+        background-color: blueviolet;
+    }
+       
+       
+    }
+}
+ 
+</style>
+<body>
+  <header>
+    <nav><pre><h1>                                                                   My Food                                                            Email</h1></pre></nav>
+  </header>
+  <div class="card">
+  <div class="container">
+  <img src="https://www.w3schools.com/w3images/sandwich.jpg"width="350px"height="400px">
+  <h2>The Perfect Sandwich,A Real NYC Classic</h2>
+    <p>Just some random text,lorem ipsum text<br> praesent tincidunt ipsum lipsum.</p>
+  </div>
+<div class="container1">
+  <img src="https://www.w3schools.com/w3images/steak.jpg"width="350px"height="400px">
+   <h2>Let Me Tell You About This Steak</h2>
+   <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+<div class="container2">
+  <img src="https://www.w3schools.com/w3images/cherries.jpg"width="350px"height="400px">
+  <h2>Cherries, interrupted</h2>
+   <p>Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</p> 
+  </div>
+  <div class="container3">
+    <img src="https://www.w3schools.com/w3images/wine.jpg"width="350px"height="400px">
+   <h2>Once Again, Robust Wine and Vegetable Pasta</h2>
+   <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+  </div>
+</div>
+<div class="card2">
+<div class="container4">
+  <img src="https://www.w3schools.com/w3images/popsicle.jpg"width="350px"height="400px">
+   <h2>All I Need Is a Popsicle</h2>
+   <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+<div class="container5">
+  <img src="https://www.w3schools.com/w3images/salmon.jpg"width="350px"height="400px">
+   <h2>Salmon For Your Skin</h2>
+   <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+<div class="container6">
+  <img src="https://www.w3schools.com/w3images/sandwich.jpg"width="350px"height="400px">
+  <h2>The Perfect Sandwich, A Real Classic</h2>
+  <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+<div class="container7">
+  <img src="https://www.w3schools.com/w3images/croissant.jpg"width="350px"height="400px">
+<h2>Le French</h2>
+<p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+</div>
+</div>
+<br>
+<hr>
+<br>
+<div class="card3">
+  <h1>About Me,The Food Man</h1>
+  <img src="https://www.w3schools.com/w3images/chef.jpg"width="750px"height="550px">
+  <h3>I am Who I Am!</h3>
+  <p>With Passion For Real, Good Food</p>
+  <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+</div>
+<hr>
+<footer>
+  <div class="content">
+  <div class="card4">
+  <div class="container8">
+    <h1>FOOTER</h1>
+    <p>Praesent tincidunt sed tellus ut rutrum. <br>Sed vitae justo condimentum, porta lectus<br> vitae, ultricies congue gravida diam<br> non fringilla.</p>
+    <p>Powered by w3.css</p>
+  </div>
+</div>
+  <div class="card5">
+    <div class="container9">
+    <h1>BLOG POSTS</h1>
+    <img src="https://www.w3schools.com/w3images/workshop.jpg"width="50px"height="50px">
+    <p>Lorem<br>
+      Sed mattis nunc</p>
+      <img src="https://www.w3schools.com/w3images/gondol.jpg"width="50px"height="50px">
+      <p>Ipsum<br>
+        Praes tinci sed</p>
+ </div>
+</div>
+ <div class="card6">
+  <div class="container9">
+  <h1>POPULAR TAGS</h1>
+    <div class="c1">Travel</div>
+    <div class="c2">New york</div>
+    <div class="c3">Dinner</div>
+    <div class="c4">Salmon</div>
+    <div class="c5">France</div>
+    <div class="c6">Drinks</div>
+    <div class="c7">ideas</div>
+    <div class="c8">flavors</div>
+    <div class="c9">fried</div>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
